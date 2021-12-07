@@ -1,9 +1,139 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #B91C1C;
+}
+
+body {
+    background-image: url("/money.jpg");
+    background-size: 100%;
+    font-family: "Montserrat", sans-serif;
+    min-width: 100vw;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     width: 50vw;
+}
+
+.heading {
+    color: var(--primary-color);
+}
+
+.description {
+    font-size: larger;
+    margin: 1rem;
+}
+
+.input-label {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+}
+
+#bill-amount {
+    text-align: center;
+    font-size: 14px;
+    padding: 1rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    max-width: 200px;
+    margin-left: 32%;
+}
+
+#cash-given {
+    text-align: center;
+    font-size: 14px;
+    padding: 1rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    max-width: 200px;
+    margin-left: 32%;
+}
+
+#error-message {
+    display: block;
+    font-size: larger;
+    margin: 1rem 0 0;
+}
+
+#check-button {
+    background: var(--primary-color);
+    border: none;
+    width: 20%;
+    margin-left: 50%;
+    text-align: center;
+    color: rgb(54, 10, 10);
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    margin: auto;
+}
+
+div {
+    text-align: center;
+    margin: auto;
+}
+
+caption {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.change-table {
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th,td {
+    border: 2px solid #B91C1C;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .list-item-inline:hover {
+    font-weight: bold;
+    background: rgba(232, 235, 233, 0.7);
+    border-radius: 6px;
 }

@@ -12,13 +12,14 @@
         <h1 class="heading">Cash Register Manager</h1>
         <p class="discription">Enter the bill amount and cash given by the customer and know minimum number of notes to return</p>
         <label for="bill-amount">Bill Amount:</label>
-        <input id="bill-amount" type="text">
-        <!-- <button>Next</button> -->
+        <input id="bill-amount" type="number">
         <label for="cash-given">Cash Given:</label>
-        <input id="cash-given" type="text">
+        <input id="cash-given" type="number">
+        <br>
         <button id="check-button">Check</button>
         <p id="error-message"></p>
         <table class="change-table">
+            <br>
             <caption>Return Change</caption>
             <tr>
                 <th>No. of Notes</th>
@@ -41,7 +42,19 @@
                 <td>1</td>
             </tr>
         </table>
+        <br>
+        <br>
     </div>
+
+    <footer class="footer">
+        <div class="footer-header">Contact Me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/priyanka332">GitHub</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/priyanka-kumari-b10024205/">LinkedIn</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.instagram.com/kumari.priyanka.2202/">Instagram</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.facebook.com/anokha.andaaz.5/">Facebook</a></li>
+        </ul>
+    </footer>
 
     <script src="./app.js"></script>
 </body>
