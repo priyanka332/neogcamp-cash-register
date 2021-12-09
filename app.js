@@ -4,13 +4,13 @@ const checkButton = document.querySelector("#check-button");
 const message = document.querySelector("#error-message");
 const noOfNotes = document.querySelectorAll(".no-of-notes");
 
-const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
+const availableNotes = [2000, 500, 100, 20, 10, 5, 2, 1];
 
 checkButton.addEventListener("click", function valid() {
   message.style.display = "none";
     if (billamount.value > 0) {
         if (giveCash.value >= billamount.value) {
-            const amountToBeReturned = giveCash.value - billamount.value; 
+            const amountToBeReturned = giveCash.value - billamount.value;
             calculateChange(amountToBeReturned);
         } 
         else {

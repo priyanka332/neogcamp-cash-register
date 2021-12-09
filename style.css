@@ -5,14 +5,22 @@ a {
 }
 
 :root {
-  --primary-color: #B91C1C;
+  --primary-color: #b41818;
 }
 
 body {
-    background-image: url("/money.jpg");
-    background-size: 100%;
+    /* background-image: url("/money.jpg");
+    background-size: 100%; */
+    /* background-color: #B91C1C; */
     font-family: "Montserrat", sans-serif;
     min-width: 100vw;
+}
+
+div {
+    background-color: #ce5656;
+    border-color: black;
+    border-width: 2rem;
+    border-radius: 1rem;
 }
 
 .container {
@@ -70,7 +78,7 @@ body {
     width: 20%;
     margin-left: 50%;
     text-align: center;
-    color: rgb(54, 10, 10);
+    color: rgb(233, 217, 217);
     padding: 1rem 1rem;
     border-radius: 0.5rem;
     font-size: large;
@@ -80,17 +88,23 @@ body {
 div {
     text-align: center;
     margin: auto;
+    border-color: black;
+    border: 2px solid black;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    
 }
 
-caption {
+.change-table caption {
+    margin: 1rem auto;
     text-align: center;
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .change-table {
     width: 80%;
-    text-align: center;
+    text-align: justify;
     border-collapse: collapse;
     margin: auto;
 }
@@ -136,4 +150,7 @@ th,td {
     font-weight: bold;
     background: rgba(232, 235, 233, 0.7);
     border-radius: 6px;
+}
+
+footer h1 {
 }
